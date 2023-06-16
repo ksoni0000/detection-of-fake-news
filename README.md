@@ -5,7 +5,7 @@
 
 This data science project aims to develop a Python model capable of effectively identifying the authenticity of news articles. The approach involves constructing a TfidfVectorizer and employing a PassiveAggressiveClassifier to categorize news as either "Real" or "Fake". The project will utilize a dataset with dimensions of 7796×4 and execute all tasks within the Jupyter Lab environment.
 
-### Prerequisites
+## Prerequisites
 
 What things you need to install the software and how to install them:
 
@@ -31,8 +31,8 @@ What things you need to install the software and how to install them:
    conda install -c anaconda scipy
    ```   
    
-### File Descriptions
-#### Importing Libraries
+## File Descriptions
+## Importing Libraries
 ##### Libraries:
 
 numpy (imported as np): A library for numerical operations and array manipulation.
@@ -51,15 +51,15 @@ sklearn.model_selection: A module that provides functions for splitting datasets
 sklearn.metrics: A module that includes various metrics for evaluating machine learning models.
 sklearn.feature_extraction.text: A module for extracting features from text data, specifically using TF-IDF (Term Frequency-Inverse Document Frequency) vectorization.
 
-### Data Preprocessing
+## Data Preprocessing
 
 The code snippet performs text preprocessing tasks such as lowercasing the text, removing punctuation, and eliminating stopwords from the text data. These steps help in standardizing the text and removing irrelevant or commonly occurring words that may not contribute to the classification task of detecting fake news.
 
-### Exploratory data analysis
+## Exploratory data analysis
 
 The code snippet performs exploratory data analysis for the fake news detection project. It includes counting the labels, plotting label counts, analyzing word frequencies, and creating word cloud visualizations for both fake and real news words. These visualizations provide insights into the distribution of labels and the most frequent words in each category, aiding in understanding the dataset and potentially guiding further analysis and modeling decisions.
 
-### Modeling and Testing the Model
+## Modeling and Testing the Model
 
 Confusion matrix plotting function:
 The code includes a function, plot_cm, to plot a confusion matrix.
@@ -92,7 +92,7 @@ The input news text is preprocessed (converted to lowercase and cleaned) and the
 The preprocessed news text is passed through the trained model to make predictions.
 The predicted label is outputted.
 
-### Installing and steps to run the software
+## Installing and steps to run the software
 
 A step by step series of examples that tell you have to get a development env running
 

@@ -32,7 +32,7 @@ What things you need to install the software and how to install them:
    ```   
    
 ## File Descriptions
-## Importing Libraries
+## 1. Importing Libraries
 ##### Libraries:
 
 numpy (imported as np): A library for numerical operations and array manipulation.
@@ -51,15 +51,15 @@ sklearn.model_selection: A module that provides functions for splitting datasets
 sklearn.metrics: A module that includes various metrics for evaluating machine learning models.
 sklearn.feature_extraction.text: A module for extracting features from text data, specifically using TF-IDF (Term Frequency-Inverse Document Frequency) vectorization.
 
-## Data Preprocessing
+## 2. Data Preprocessing
 
 The code snippet performs text preprocessing tasks such as lowercasing the text, removing punctuation, and eliminating stopwords from the text data. These steps help in standardizing the text and removing irrelevant or commonly occurring words that may not contribute to the classification task of detecting fake news.
 
-## Exploratory data analysis
+## 3. Exploratory data analysis
 
 The code snippet performs exploratory data analysis for the fake news detection project. It includes counting the labels, plotting label counts, analyzing word frequencies, and creating word cloud visualizations for both fake and real news words. These visualizations provide insights into the distribution of labels and the most frequent words in each category, aiding in understanding the dataset and potentially guiding further analysis and modeling decisions.
 
-## Modeling and Testing the Model
+## 4. Modeling and Testing the Model
 
 Confusion matrix plotting function:
 The code includes a function, plot_cm, to plot a confusion matrix.

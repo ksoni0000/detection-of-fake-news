@@ -1,1 +1,2 @@
 # detection-of-fake-news
+This data science project aims to develop a Python model capable of effectively identifying the authenticity of news articles. The approach involves constructing a TfidfVectorizer and employing a PassiveAggressiveClassifier to categorize news as either "Real" or "Fake". The project will utilize a dataset with dimensions of 7796×4 and execute all tasks within the Jupyter Lab environment.
